@@ -1,0 +1,16 @@
+.left-menu {
+  width: 150px;
+  border: 1px solid gray;
+  float: left;
+  padding-top: 20px;
+}
+
+.tk-menu {
+  display: block;
+}
+
+.tk-submenu {
+  list-style: none;
+  height: 56px;
+  min-height: 56px;
+}
