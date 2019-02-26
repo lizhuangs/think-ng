@@ -2,15 +2,15 @@
   width: 150px;
   border: 1px solid gray;
   float: left;
-  padding-top: 20px;
+  min-height: 500px;
 }
 
 .tk-menu {
   display: block;
+  list-style: none;
 }
 
 .tk-submenu {
-  list-style: none;
   height: 56px;
   min-height: 56px;
 }

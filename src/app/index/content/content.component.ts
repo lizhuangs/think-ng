@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
   title = 'think-ng';
+  user: { username: string };
   constructor() { }
-
   ngOnInit() {
+    this.user = { username: 'Semlinker' };
   }
 
 }

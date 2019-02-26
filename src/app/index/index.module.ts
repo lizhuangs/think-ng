@@ -4,6 +4,7 @@ import { LeftComponent } from './left/left.component';
 import { TopComponent } from './top/top.component';
 import { FootComponent } from './foot/foot.component';
 import { ContentComponent } from './content/content.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ContentComponent } from './content/content.component';
     ContentComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     LeftComponent,
