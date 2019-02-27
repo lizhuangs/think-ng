@@ -4,11 +4,8 @@ import { LeftComponent } from './left/left.component';
 import { TopComponent } from './top/top.component';
 import { FootComponent } from './foot/foot.component';
 import { ContentComponent } from './content/content.component';
-import { FormsModule } from '@angular/forms';
 import { PageNotFoundComponent } from './common/page-not-found.component';
 import { IndexRoutingModule } from './index-routing.module';
-import { DemoComponent } from './demo/demo.component';
-import { DemoTemplateComponent } from './demo/demo-template/demo-template.component';
 import { ContentRoutingModule } from './content/content-routing.module';
 import { DemoModule } from './demo/demo.module';
 
@@ -22,7 +19,8 @@ import { DemoModule } from './demo/demo.module';
   ],
   imports: [
     CommonModule,
-    FormsModule,
+    /*1、引用了module就可以不引用路由，但是路由必须在引用的module中存在才可以跳转进去
+    2、可以没有module，通过路由也可以直接跳转进去 */
     DemoModule,
     ContentRoutingModule,
     IndexRoutingModule
