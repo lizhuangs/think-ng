@@ -1,0 +1,9 @@
+<h1>
+  数据绑定示例{{ title }}!
+</h1>
+<div>
+  双向数据绑定：
+  <input type="text" name="" id="" [(ngModel)]="title"><br />
+  <p>注意：使用ngModel的地方，声明组件的同时，也要引入FormModule</p>
+  等同于：<input type="text" [ngModel]="title" name="" (ngModelChange)="title = $event">
+</div>
