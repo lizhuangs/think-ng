@@ -15,7 +15,7 @@ const routes: Routes = [
   }, */
   {
     path: 'crisis-center',
-    loadChildren: 'app/index/index.module#IndexModule'
+    loadChildren: './index/index.module#IndexModule'
     /* ,data: { preload: true } 配合SelectivePreloadingStrategy使用*/
   },
   { path: '', redirectTo: '/index', pathMatch: 'full' },
@@ -23,7 +23,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes
+    // ,{ enableTracing: true } // debugging purposes only
+  )],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
