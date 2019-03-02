@@ -14,3 +14,7 @@
   height: 56px;
   min-height: 56px;
 }
+
+.tk-submenu a.active {
+  color: #039be5;
+}
