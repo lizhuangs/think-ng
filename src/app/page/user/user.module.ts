@@ -4,13 +4,17 @@ import { CommonModule } from '@angular/common';
 import { UserRoutingModule } from './user-routing.module';
 import { UserComponent } from './user.component';
 import { UserService } from './user.service';
+import { UserUpdateComponent } from './user-update/user-update.component';
+import { UserUpdateModule } from './user-update/user-update.module';
 
 @NgModule({
   declarations: [
-    UserComponent
+    UserComponent,
+    UserUpdateComponent
   ],
   imports: [
     CommonModule,
+    UserUpdateModule,
     UserRoutingModule
   ],
   providers: [UserService]

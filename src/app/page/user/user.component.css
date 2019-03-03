@@ -3,12 +3,19 @@
 }
 
 .user table {
-  margin-top:20px;
-  margin-left:20px;
-  border-collapse:collapse;border:none;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-collapse: collapse;
+  border: none;
   width: 90%;
 }
 
 td {
-  border:solid #000 1px;
+  border: solid #388c9b 1px;
+}
+
+.table-menu {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
