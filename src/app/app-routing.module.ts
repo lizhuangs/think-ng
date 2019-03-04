@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PageNotFoundComponent } from './index/common/page-not-found/page-not-found.component';
+import {PageNotFoundComponent} from './page/index/common/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   /* {
@@ -15,7 +15,7 @@ const routes: Routes = [
   }, */
   {
     path: 'crisis-center',
-    loadChildren: './index/index.module#IndexModule'
+    loadChildren: './page/index/index.module#IndexModule'
     /* ,data: { preload: true } 配合SelectivePreloadingStrategy使用*/
   },
   { path: '', redirectTo: '/index', pathMatch: 'full' },
