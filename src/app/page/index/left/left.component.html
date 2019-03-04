@@ -1,0 +1,22 @@
+<div class="left-menu">
+  <ul class="tk-menu">
+    <li class="tk-submenu">
+      <a routerLink="/index" routerLinkActive="active">首页</a>
+    </li>
+    <li class="tk-submenu">
+      <a routerLink="/demo" routerLinkActive="active">Demo</a>
+    </li>
+    <li class="tk-submenu">
+      <a routerLink="/users" routerLinkActive="active">用户列表</a>
+    </li>
+    <li class="tk-submenu">
+      <a routerLink="/admin" routerLinkActive="active">管理员</a>
+    </li>
+    <li class="tk-submenu">
+      <a routerLink="/404" routerLinkActive="active">404</a>
+    </li>
+    <li class="tk-submenu">
+      <a [routerLink]="[{ outlets: { popup: ['compose'] } }]">Contact</a>
+    </li>
+  </ul>
+</div>

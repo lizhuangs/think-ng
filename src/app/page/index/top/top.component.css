@@ -1,0 +1,30 @@
+.top-menu {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+}
+
+.top-left-div {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top-right-div {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.top-right-div a {
+  padding-left: 10px;
+}
+
+.top-search-txt {
+  height: 30px;
+  width: 400px;
+  margin-right: 10px;
+}

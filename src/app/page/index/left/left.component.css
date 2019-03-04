@@ -1,0 +1,20 @@
+.left-menu {
+  width: 150px;
+  border: 1px solid gray;
+  float: left;
+  min-height: 500px;
+}
+
+.tk-menu {
+  display: block;
+  list-style: none;
+}
+
+.tk-submenu {
+  height: 56px;
+  min-height: 56px;
+}
+
+.tk-submenu a.active {
+  color: #039be5;
+}

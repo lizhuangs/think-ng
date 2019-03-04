@@ -1,0 +1,50 @@
+.tk-dialog {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 888;
+}
+
+.tk-dialog-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.tk-dialog-content {
+  position: absolute;
+  min-width: 30%;
+  min-height: 30%;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: #fff;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  /* 核心：top和left左上居中是以div左上角的点定位的，实际此div没有在整个页面的水平和垂直中间。
+  向上（X轴）向左（Y轴）移动自身长宽的50%，使其位于中心 */
+  transform: translate3d(-50%, -50%, 0);
+  overflow-y: scroll;
+}
+
+.tk-dialog-title {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  font-size: 1.2rem;
+  color: #388c9b;
+}
+
+.tk-dialog-close {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+}
