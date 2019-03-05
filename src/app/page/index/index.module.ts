@@ -9,9 +9,9 @@ import {IndexRoutingModule} from './index-routing.module';
 import {ContentRoutingModule} from './content/content-routing.module';
 import {TkDialogComponent} from './common/tk-dialog/tk-dialog.component';
 import {TkTableComponent} from './common/tk-table/tk-table.component';
-import {DemoModule} from "../../demo/demo.module";
-import {UserModule} from "../user/user.module";
-import {AdminModule} from "../../admin/admin/admin.module";
+import {DemoModule} from '../../demo/demo.module';
+import {UserModule} from '../user/user.module';
+import {AdminModule} from '../../admin/admin/admin.module';
 
 @NgModule({
   declarations: [
