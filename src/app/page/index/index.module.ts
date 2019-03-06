@@ -4,11 +4,8 @@ import {LeftComponent} from './left/left.component';
 import {TopComponent} from './top/top.component';
 import {FootComponent} from './foot/foot.component';
 import {ContentComponent} from './content/content.component';
-import {PageNotFoundComponent} from './common/page-not-found/page-not-found.component';
 import {IndexRoutingModule} from './index-routing.module';
 import {ContentRoutingModule} from './content/content-routing.module';
-import {TkDialogComponent} from './common/tk-dialog/tk-dialog.component';
-import {TkTableComponent} from './common/tk-table/tk-table.component';
 import {DemoModule} from '../../demo/demo.module';
 import {UserModule} from '../user/user.module';
 import {AdminModule} from '../../admin/admin/admin.module';
@@ -18,10 +15,7 @@ import {AdminModule} from '../../admin/admin/admin.module';
     LeftComponent,
     TopComponent,
     FootComponent,
-    ContentComponent,
-    PageNotFoundComponent,
-    TkDialogComponent,
-    TkTableComponent
+    ContentComponent
   ],
   imports: [
     CommonModule,

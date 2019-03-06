@@ -4,6 +4,8 @@ import {DemoRoutingModule} from './demo-routing.module';
 import {DemoComponent} from './demo.component';
 import {DemoTemplateModule} from './demo-template/demo-template.module';
 import {DemoMtTableModule} from './demo-mt-table/demo-mt-table.module';
+import { DemoTkTableModule } from './demo-tk-table/demo-tk-table.module';
+import { DemoDirectiveModule } from './demo-directive/demo-directive.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import {DemoMtTableModule} from './demo-mt-table/demo-mt-table.module';
     CommonModule,
     DemoTemplateModule,
     DemoMtTableModule,
-    DemoRoutingModule
+    DemoRoutingModule,
+    DemoTkTableModule,
+    DemoDirectiveModule
   ]
 })
 export class DemoModule {
