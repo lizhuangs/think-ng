@@ -8,7 +8,10 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, Renderer2 } fr
 export class DemoDirectiveComponent implements OnInit, AfterViewInit {
   @ViewChild('myDiv') myDiv: ElementRef;
   @ViewChild('myDiv2') myDiv2: ElementRef;
-  constructor(private ele: ElementRef, private renderer: Renderer2) { }
+  color = 'blue';
+  constructor(private ele: ElementRef, private renderer: Renderer2) {
+    console.log(2);
+   }
 
   ngOnInit() {
   }

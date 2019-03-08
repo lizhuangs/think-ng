@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { DemoDirectiveRoutingModule } from './demo-directive-routing.module';
 import { DemoDirectiveComponent } from './demo-directive.component';
 import { DemoDirective } from './demo.directive';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { DemoDirective } from './demo.directive';
   ],
   imports: [
     CommonModule,
+    BrowserModule,
     DemoDirectiveRoutingModule
   ]
 })
