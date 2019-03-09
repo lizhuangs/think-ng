@@ -7,10 +7,10 @@ export class DemoDirective {
   defaultBgColor = 'gray';
   // 可以取别名@Input('bgColor')
   // 注意bgColor的值对应DemoDirectiveComponent中的color，不能直接在html页面传值
-  // DemoDirective的constructor要晚于组件，但是却取不到@Input的值，可能是构造完成后才能注入吧
   @Input() bgColor: string;
   number = 0;
 
+  // Directive的constructor要晚于组件，但是却取不到@Input的值，可能是构造完成后才能注入吧
   constructor(private el: ElementRef, private renderer: Renderer2) {
     this.setStyle(this.defaultBgColor);
   }

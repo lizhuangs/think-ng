@@ -1,0 +1,9 @@
+.color_list_x{max-width:960px;font-size:0;margin-left: 20px;}
+ .color_list { width: 237px; display: inline-block; margin: 25px 0; position: relative; }
+ .color_list:before{content:'';border:40px solid transparent;float: left;border-radius:50%;margin-right: 25px; box-shadow: 0 4px 16px; opacity: .5;}
+  .color_list:after {content:'';position:absolute;border:40px solid;border-radius:50%;left:0; top: 0;}
+  .light:before{box-shadow: 0 4px 16px rgba(0,0,0,.3);}
+ .color_list h6{font-size: 20px; margin: 15px 0 5px; color: #4c5161;}
+ .color_list p{margin: 0; font-size: 16px; color: #4c5161;}
+
+ body, form, ul, ol, dl, dd, p{margin:0}a, a:hover{text-decoration:none}html{overflow:auto}body, .dark{color:#4c5161}a, .blue, a.dark:hover{color:#2486ff}a:hover{color:#0057c3}.gray{color:#a2a9b6}.white{color:#fff}.green{color:#01cf97}.orange{color:#f28c48}.red{color:#f4615c}.light{color:#f7f9fa}

@@ -1,0 +1,19 @@
+.tk-div-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  margin: 10px;
+}
+
+.tk-div {
+  position: relative;
+  min-width: 300px;
+  background-color: rgb(28, 32, 34);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tk-div a {
+  margin: 5px;
+}

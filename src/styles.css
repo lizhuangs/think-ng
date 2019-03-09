@@ -1,1 +1,22 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body,
+html {
+  background: #111518;
+  color: white;
+  font-family: Source Sans Pro, Open Sans, Segoe UI, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+a {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1.125rem;
+  color: white;
+  font-weight: 400;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  margin: 0px 1rem;
+}
