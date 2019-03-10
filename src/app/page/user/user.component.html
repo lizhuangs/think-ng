@@ -3,22 +3,25 @@
     <input type="button" value="添加">
     <a target="_blank" href="https://material.angular.io/components/table/overview">表格实现参考</a>
   </div>
-  <table>
-    <tr class="row">
-      <td class="col">用户名</td>
-      <td class="col">姓名</td>
-      <td class="col">性别</td>
-      <td class="col">出生日期</td>
-      <td class="col">创建时间</td>
-      <td class="col">操作</td>
-    </tr>
-    <tr class="row" *ngFor="let user of users">
-      <td class="col">{{user.userName}}</td>
-      <td class="col">{{user.name}}</td>
-      <td class="col">{{user.sex}}</td>
-      <td class="col">{{user.birthday}}</td>
-      <td class="col">{{user.createTime}}</td>
-      <td class="col"></td>
-    </tr>
-  </table>
+  <div class="table-div">
+    <table>
+      <tr class="row">
+        <td class="col">用户名</td>
+        <td class="col">姓名</td>
+        <td class="col">性别</td>
+        <td class="col">出生日期</td>
+        <td class="col">创建时间</td>
+        <td class="col">操作</td>
+      </tr>
+      <tr class="row" *ngFor="let user of users">
+        <td class="col">{{user.userName}}</td>
+        <td class="col">{{user.name}}</td>
+        <td class="col">{{user.sex}}</td>
+        <td class="col">{{user.birthday}}</td>
+        <td class="col">{{user.createTime}}</td>
+        <td class="col">
+         <label>修改</label>&nbsp;|&nbsp;<label>删除</label></td>
+      </tr>
+    </table>
+  </div>
 </div>

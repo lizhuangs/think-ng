@@ -6,7 +6,6 @@ import {DemoTemplateModule} from './demo-template/demo-template.module';
 import {DemoMtTableModule} from './demo-mt-table/demo-mt-table.module';
 import { DemoTkTableModule } from './demo-tk-table/demo-tk-table.module';
 import { DemoDirectiveModule } from './demo-directive/demo-directive.module';
-import { DemoHeroModule } from './demo-hero/demo-hero.module';
 import { DemoTkColorModule } from './demo-tk-color/demo-tk-color.module';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { DemoTkColorModule } from './demo-tk-color/demo-tk-color.module';
     DemoRoutingModule,
     DemoTkTableModule,
     DemoDirectiveModule,
-    DemoHeroModule,
     DemoTkColorModule
   ]
 })

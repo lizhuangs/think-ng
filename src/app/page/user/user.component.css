@@ -1,13 +1,14 @@
 .user {
   text-align: center;
 }
+.table-div{
+}
 
 .user table {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px 10px;
   border-collapse: collapse;
   border: none;
-  width: 90%;
+  width: 98%;
 }
 
 td {
